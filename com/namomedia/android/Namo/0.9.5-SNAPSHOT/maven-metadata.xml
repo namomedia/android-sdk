@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.namomedia.android</groupId>
-  <artifactId>root</artifactId>
+  <artifactId>Namo</artifactId>
   <version>0.9.5-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20131028.192949</timestamp>
+      <timestamp>20131028.193004</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20131028192949</lastUpdated>
+    <lastUpdated>20131028193004</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.9.5-20131028.193004-1</value>
+        <updated>20131028193004</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>pom</extension>
-        <value>0.9.5-20131028.192949-1</value>
-        <updated>20131028192949</updated>
+        <value>0.9.5-20131028.193004-1</value>
+        <updated>20131028193004</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
