@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="12dp">
+
+  <ImageView
+    android:id="@+id/namo_advertiser_icon"
+    android:layout_gravity="center"
+    android:layout_height="60dp"
+    android:layout_width="60dp"
+    android:src="@drawable/namo_placeholder"/>
+
+  <TextView
+    android:id="@id/namo_advertiser_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/namo_advertiser_icon"
+    android:singleLine="true"
+    android:layout_marginLeft="4dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="?android:attr/textColorLink"
+    android:text="Sample Advertiser Name" />
+
+  <TextView
+    android:id="@id/namo_ad_indicator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/namo_advertiser_icon"
+    android:layout_below="@id/namo_advertiser_name"
+    android:singleLine="true"
+    android:layout_marginLeft="4dp"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:enabled="false"
+    android:text="Sponsored" />
+
+  <TextView
+    android:id="@id/namo_ad_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/namo_ad_indicator"
+    android:layout_toRightOf="@id/namo_advertiser_icon"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="4dp"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Sample Ad Title - typically up to 50 characters long" />
+
+  <ImageView
+    android:id="@+id/namo_ad_image"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_below="@id/namo_ad_title"
+    android:layout_marginTop="12dp"
+    android:src="@drawable/namo_placeholder" />
+
+</RelativeLayout>
