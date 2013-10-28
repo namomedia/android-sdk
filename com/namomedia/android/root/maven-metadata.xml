@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.namomedia.android</groupId>
-  <artifactId>NamoDemos</artifactId>
+  <artifactId>root</artifactId>
   <versioning>
     <versions>
       <version>0.9.5-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20131028192801</lastUpdated>
+    <lastUpdated>20131028192949</lastUpdated>
   </versioning>
 </metadata>
