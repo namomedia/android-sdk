@@ -6,13 +6,13 @@
   <artifactId>Namo</artifactId>
   <name>${project.artifactId}</name>
   <packaging>apklib</packaging>
-  <version>0.9.6-SNAPSHOT</version>
+  <version>0.9.6</version>
 
   <scm>
     <connection>scm:git:https://namo-batman@bitbucket.org/namomedia/android.git</connection>
     <developerConnection>scm:git:https://namo-batman@bitbucket.org/namomedia/android.git</developerConnection>
     <url>https://bitbucket.org/namomedia/android</url>
-    <tag>HEAD</tag>
+    <tag>namo-0.9.6</tag>
   </scm>
 
   <licenses>
@@ -107,7 +107,7 @@
         </configuration>
       </plugin>
 
-
+      <!-- Android build -->
       <plugin>
         <groupId>com.jayway.maven.plugins.android.generation2</groupId>
         <artifactId>android-maven-plugin</artifactId>
@@ -178,8 +178,7 @@
         </executions>
       </plugin>
 
-      <!-- To generate JavaDoc run
-       mvn clean javadoc:javadoc validate-->
+      <!-- To generate JavaDoc run: mvn clean javadoc:javadoc validate-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
@@ -244,6 +243,8 @@
         </executions>
       </plugin>
 
+      <!-- Release plugin for incrementing and tagging version. You still need to change the
+       AndroidManifest.xml version manually. -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
