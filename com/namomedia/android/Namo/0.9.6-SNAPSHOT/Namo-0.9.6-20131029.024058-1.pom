@@ -15,6 +15,9 @@
 
   <properties>
     <proguard.skip>true</proguard.skip>
+
+    <!-- github server corresponds to entry in /settings.xml -->
+    <github.global.server>github</github.global.server>
   </properties>
 
   <dependencies>
@@ -74,7 +77,6 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>1.2.1</version>
         <inherited>false</inherited>
         <executions>
           <execution>
@@ -119,12 +121,12 @@
         </executions>
       </plugin>
 
-      <!-- Automatically push to github branch.-->
+      <!-- Automatically push to github branch when running mvn deploy. -->
       <plugin>
         <groupId>com.github.github</groupId>
         <artifactId>site-maven-plugin</artifactId>
         <configuration>
-          <message>Artifacts for ${project.version}</message>
+          <message>New artifacts for ${project.version}</message>
           <noJekyll>true</noJekyll>
           <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
           <branch>refs/heads/mvn-repo</branch>
