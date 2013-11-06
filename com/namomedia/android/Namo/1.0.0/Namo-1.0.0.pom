@@ -6,13 +6,13 @@
   <artifactId>Namo</artifactId>
   <name>${project.artifactId}</name>
   <packaging>apklib</packaging>
-  <version>0.9.6</version>
+  <version>1.0.0</version>
 
   <scm>
     <connection>scm:git:https://namo-batman@bitbucket.org/namomedia/android.git</connection>
     <developerConnection>scm:git:https://namo-batman@bitbucket.org/namomedia/android.git</developerConnection>
     <url>https://bitbucket.org/namomedia/android</url>
-    <tag>namo-0.9.6</tag>
+    <tag>namo-1.0.0</tag>
   </scm>
 
   <licenses>
@@ -50,10 +50,11 @@
     <build-helper-maven-plugin.version>1.8</build-helper-maven-plugin.version>
     <maven-javadoc-plugin.version>2.9.1</maven-javadoc-plugin.version>
     <maven-replacer-plugin.version>1.4.0</maven-replacer-plugin.version>
-    <maven-resource-plugin.version>2.5</maven-resource-plugin.version>
+    <maven-resources-plugin.version>2.5</maven-resources-plugin.version>
     <maven-release-plugin.version>2.4.1</maven-release-plugin.version>
     <maven-deploy-plugin.version>2.7</maven-deploy-plugin.version>
     <exec-maven-plugin.version>1.2.1</exec-maven-plugin.version>
+    <site-maven-plugin.version>0.9</site-maven-plugin.version>
 
     <!-- github server corresponds to entry in /settings.xml -->
     <github.global.server>github</github.global.server>
@@ -156,6 +157,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
+        <version>${build-helper-maven-plugin.version}</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -221,6 +223,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
+        <version>${maven-resources-plugin.version}</version>
         <executions>
           <execution>
             <phase>validate</phase>
@@ -261,6 +264,7 @@
       <plugin>
         <groupId>com.github.github</groupId>
         <artifactId>site-maven-plugin</artifactId>
+        <version>${site-maven-plugin.version}</version>
         <configuration>
           <message>New artifacts for ${project.version}</message>
           <noJekyll>true</noJekyll>
@@ -286,7 +290,6 @@
       </plugin>
     </plugins>
   </build>
-
   <distributionManagement>
     <repository>
       <id>internal.repo</id>
