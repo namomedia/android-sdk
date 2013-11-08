@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingBottom="12dp"
+  android:paddingTop="8dp"
+  android:paddingLeft="8dp"
+  android:paddingRight="8dp">
+
+  <FrameLayout
+    android:id="@+id/namo_icon_frame"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignTop="@id/namo_advertiser_name"
+    android:layout_alignBottom="@id/namo_advertiser_name">
+
+    <ImageView
+      android:id="@id/namo_advertiser_icon"
+      android:layout_gravity="center"
+      android:layout_height="16dp"
+      android:layout_width="16dp"
+      android:src="@drawable/namo_placeholder"/>
+  </FrameLayout>
+
+  <TextView
+    android:id="@id/namo_advertiser_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/namo_icon_frame"
+    android:singleLine="true"
+    android:layout_marginLeft="4dp"
+    android:layout_marginBottom="1dp"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Sample Advertiser Name" />
+
+  <ImageView
+    android:id="@id/namo_ad_image"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_below="@id/namo_advertiser_name"
+    android:layout_marginTop="4dp"
+    android:src="@drawable/namo_placeholder" />
+
+  <TextView
+    android:id="@id/namo_ad_title"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/namo_ad_image"
+    android:layout_marginTop="4dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Sample Ad Title - typically up to 50 characters long" />
+
+  <TextView
+    android:id="@id/namo_ad_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/namo_ad_title"
+    android:maxLines="3"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Sample ad text - typically between 20 and 200 characters. You should design your layout so that the ad text can wrap appropriately." />
+</RelativeLayout>

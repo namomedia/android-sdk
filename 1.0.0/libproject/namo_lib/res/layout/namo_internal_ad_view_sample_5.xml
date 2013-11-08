@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="78dp">
+
+  <ImageView
+    android:id="@id/namo_ad_image"
+    android:layout_width="92dp"
+    android:layout_height="match_parent"
+    android:src="@drawable/namo_placeholder" />
+
+  <TextView
+    android:id="@id/namo_ad_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/namo_ad_title"
+    android:layout_toRightOf="@id/namo_ad_image"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="6dp"
+    android:maxLines="4"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Sample ad text - typically between 20 and 200 characters. You should design your layout so that the ad text can wrap appropriately." />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="12dp"
+    android:layout_marginBottom="4dp"
+    android:singleLine="true"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="#ff0099cc"
+    android:textStyle="bold"
+    android:text="Ad" />
+
+</RelativeLayout>

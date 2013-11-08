@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.namomedia.android"
+  android:versionName="@string/namo_version"
+  android:label="Namo">
+
+  <uses-sdk android:minSdkVersion="8" />
+
+  <!-- Also needed to integrate the SDK. See http://docs.namomedia.com/android -->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+  <application>
+    <!-- Also needed to integrate the SDK. See http://docs.namomedia.com/android -->
+    <activity
+      android:name="com.namomedia.android.NamoAdActivity"
+      android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode" />
+  </application>
+</manifest>
