@@ -6,13 +6,13 @@
   <artifactId>Namo</artifactId>
   <name>${project.artifactId}</name>
   <packaging>apklib</packaging>
-  <version>1.0.0</version>
+  <version>1.1.2</version>
 
   <scm>
     <connection>scm:git:https://namo-batman@bitbucket.org/namomedia/android.git</connection>
     <developerConnection>scm:git:https://namo-batman@bitbucket.org/namomedia/android.git</developerConnection>
     <url>https://bitbucket.org/namomedia/android</url>
-    <tag>namo-1.0.0</tag>
+    <tag>namo-1.1.2</tag>
   </scm>
 
   <licenses>
