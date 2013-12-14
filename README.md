@@ -1,9 +1,11 @@
 Namo Android SDK
 ===========
 
-This SDK by Namo Media enables you to insert native mobile ads into a ListView or other content streams in your Android applications. The SDK uses native Android APIs to display ads, and will automatically adapt ad images and text to match your layout. You can choose one of our prebuilt sample formats, reuse your existing content layout, or create your own ad format.
+This SDK by Namo Media facilitates inserting native mobile ads into a ListView or other content stream in your Android application. The SDK uses native Android APIs to display ads, and will automatically adapt ad images and text to match your layout format. You can choose one of our pre-built sample formats, reuse your existing content layout, or create a new custom format.
 
-See our [Help Documentation](http://docs.namomedia.com/android/) to get started. Happy coding!
+See our [Help Documentation](http://docs.namomedia.com/android/) to get started.
+
+![Sample ad format](http://docs.namomedia.com/android/readme-image.png)
 
 Change Log
 ===========
