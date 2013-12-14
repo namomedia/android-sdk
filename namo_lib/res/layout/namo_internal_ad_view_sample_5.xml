@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="78dp">
+
+  <ImageView
+    android:id="@id/namo_ad_image"
+    android:layout_width="92dp"
+    android:layout_height="match_parent"
+    android:src="@drawable/namo_placeholder" />
+
+  <TextView
+    android:id="@id/namo_ad_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_toRightOf="@id/namo_ad_image"
+    android:ellipsize="end"
+    android:maxLines="4"
+    android:text="Sample ad text - Namo will dynamically select which ad text to use by measuring the size of the TextView."
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="4dp"
+    android:layout_marginRight="12dp"
+    android:background="?android:attr/colorBackground"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:singleLine="true"
+    android:text="Ad"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="#ff0099cc"
+    android:textStyle="bold" />
+
+</RelativeLayout>
+<!-- From: file:/Users/nassar/Development/repos/namomedia/android/Namo/src/main/res/layout/namo_internal_ad_view_sample_5.xml -->
