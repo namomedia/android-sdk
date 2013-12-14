@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="94dp"
+  android:paddingRight="4dp">
+
+  <ImageView
+    android:id="@id/namo_ad_image"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true"
+    android:src="@drawable/namo_placeholder" />
+
+  <FrameLayout
+    android:id="@+id/namo_icon_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@id/namo_advertiser_name"
+    android:layout_alignTop="@id/namo_advertiser_name"
+    android:layout_marginLeft="104dp">
+
+    <ImageView
+      android:id="@+id/namo_advertiser_icon"
+      android:layout_width="16dp"
+      android:layout_height="16dp"
+      android:layout_gravity="center"
+      android:src="@drawable/namo_placeholder" />
+  </FrameLayout>
+
+  <TextView
+    android:id="@id/namo_advertiser_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_toRightOf="@id/namo_icon_frame"
+    android:singleLine="true"
+    android:text="Advertiser (up to 25 characters)"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textStyle="bold" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginBottom="4dp"
+    android:background="?android:attr/colorBackground"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:singleLine="true"
+    android:text="Ad"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="#ff0099cc"
+    android:textStyle="bold" />
+
+  <TextView
+    android:id="@id/namo_ad_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@id/namo_icon_frame"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@id/namo_advertiser_name"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:paddingBottom="4dp"
+    android:text="Sample ad text - Namo will dynamically select which ad text to use by measuring the size of the TextView."
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

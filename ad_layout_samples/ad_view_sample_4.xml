@@ -6,50 +6,51 @@
 
   <ImageView
     android:id="@+id/namo_advertiser_icon"
-    android:layout_gravity="center"
-    android:layout_height="60dp"
     android:layout_width="60dp"
-    android:src="@drawable/namo_placeholder"/>
+    android:layout_height="60dp"
+    android:layout_gravity="center"
+    android:src="@drawable/namo_placeholder" />
 
   <TextView
     android:id="@id/namo_advertiser_name"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
     android:layout_toRightOf="@id/namo_advertiser_icon"
     android:singleLine="true"
-    android:layout_marginLeft="4dp"
+    android:text="Advertiser Name up to 25 chars"
     android:textAppearance="?android:attr/textAppearanceMedium"
-    android:textColor="?android:attr/textColorLink"
-    android:text="Sample Advertiser Name" />
+    android:textColor="#ff0099cc" />
 
   <TextView
     android:id="@id/namo_ad_indicator"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_toRightOf="@id/namo_advertiser_icon"
     android:layout_below="@id/namo_advertiser_name"
-    android:singleLine="true"
     android:layout_marginLeft="4dp"
-    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:layout_toRightOf="@id/namo_advertiser_icon"
     android:enabled="false"
-    android:text="Sponsored" />
+    android:singleLine="true"
+    android:text="Sponsored"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
 
   <TextView
-    android:id="@id/namo_ad_title"
+    android:id="@id/namo_ad_text"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_below="@id/namo_ad_indicator"
-    android:layout_toRightOf="@id/namo_advertiser_icon"
     android:layout_marginLeft="4dp"
-    android:layout_marginTop="4dp"
-    android:textAppearance="?android:attr/textAppearanceSmall"
-    android:text="Sample Ad Title - typically up to 50 characters long" />
+    android:layout_toRightOf="@id/namo_advertiser_icon"
+    android:ellipsize="end"
+    android:singleLine="true"
+    android:text="Sample ad text - Namo will dynamically select which ad text to use by measuring the size of the TextView. The min text length will be 25 chars."
+    android:textAppearance="?android:attr/textAppearanceSmall" />
 
   <ImageView
     android:id="@+id/namo_ad_image"
     android:layout_width="match_parent"
     android:layout_height="100dp"
-    android:layout_below="@id/namo_ad_title"
+    android:layout_below="@id/namo_ad_text"
     android:layout_marginTop="12dp"
     android:src="@drawable/namo_placeholder" />
 
