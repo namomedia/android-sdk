@@ -10,6 +10,9 @@ See our [Help Documentation](http://docs.namomedia.com/android/) to get started.
 Change Log
 ===========
 
+**Version 2.0.1** - *December 18, 2013*
+* Fix impression tracking to require 50% of the ad to be visible for 1 second
+
 **Version 2.0** - *December 13, 2013*
 * Server side ad placement
 * Moved Maven and Gradle artifacts Maven Central
@@ -19,14 +22,14 @@ Change Log
 * Support for manually binding ad content using your own list adapter
 * Revamped ad view binding APIs
 
-**Version 1.1.0** - *November 14, 2013*
+**Version 1.1** - *November 14, 2013*
 * Improved image caching
 * Improved performance, especially on Froyo and Gingerbread devices
 * AdPlacer API to allow manual placement of ads
 * Changes to the IndexPathAdjuster API, along with better documentation
 * Significantly improved Getting Started documentation
 
-**Version 1.0.0** - *November 6, 2013*
+**Version 1.0** - *November 6, 2013*
 * Now supports Android Studio, IntelliJ, Gradle, Maven, Eclipse, and ant builds. 
 * Fixes for Froyo
 * Out of Beta!
