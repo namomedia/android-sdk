@@ -10,6 +10,9 @@ See our [Help Documentation](http://docs.namomedia.com/android/) to get started.
 Change Log
 ===========
 
+**Version 2.1.0** - *January 31, 2013*
+* Better app install experience - no intermediary browser window between the ad and the play store.
+
 **Version 2.0.1** - *December 18, 2013*
 * Fix impression tracking to require 50% of the ad to be visible for 1 second
 
