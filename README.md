@@ -10,7 +10,7 @@ See our [Quickstart Guide](http://docs.namomedia.com/quickstart) to get started.
 Change Log
 ===========
 
-**Version 2.2.0** - *April 2, 2014*
+**Version 2.2.0** - *April 22, 2014*
 * Support for hierarchical ad units
 
 **Version 2.1.0** - *January 31, 2013*
