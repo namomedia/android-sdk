@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/nassar/Development/repos/namomedia/android/Namo/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/nassar/Development/repos/namomedia/namo-android/Namo/src/main/res/values/ids.xml -->
+    <eat-comment />
+
     <item name="namo_ad_image" type="id"/>
     <item name="namo_ad_indicator" type="id"/>
     <item name="namo_ad_text" type="id"/>
     <item name="namo_advertiser_icon" type="id"/>
     <item name="namo_advertiser_name" type="id"/>
-    <!-- From: file:/Users/nassar/Development/repos/namomedia/android/Namo/src/main/res/values/layouts.xml -->
+    <!-- From: file:/Users/nassar/Development/repos/namomedia/namo-android/Namo/src/main/res/values/layouts.xml -->
+    <eat-comment />
+
     <item name="namo_ad_view_sample_1" type="layout">@layout/namo_internal_ad_view_sample_1</item>
     <item name="namo_ad_view_sample_2" type="layout">@layout/namo_internal_ad_view_sample_2</item>
     <item name="namo_ad_view_sample_3" type="layout">@layout/namo_internal_ad_view_sample_3</item>
     <item name="namo_ad_view_sample_4" type="layout">@layout/namo_internal_ad_view_sample_4</item>
     <item name="namo_ad_view_sample_5" type="layout">@layout/namo_internal_ad_view_sample_5</item>
-    <!-- From: file:/Users/nassar/Development/repos/namomedia/android/Namo/src/main/res/values/strings.xml -->
-    <string name="namo_version">2.2.0</string>
+    <!-- From: file:/Users/nassar/Development/repos/namomedia/namo-android/Namo/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="namo_version">2.2.17</string>
 
 </resources>

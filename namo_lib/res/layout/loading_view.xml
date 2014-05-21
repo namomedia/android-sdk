@@ -8,4 +8,4 @@
         android:layout_width="50dip"
         android:layout_height="50dip"
         android:layout_gravity="center"/>
-</FrameLayout><!-- From: file:/Users/nassar/Development/repos/namomedia/android/Namo/src/main/res/layout/loading_view.xml -->
+</FrameLayout><!-- From: file:/Users/nassar/Development/repos/namomedia/namo-android/Namo/src/main/res/layout/loading_view.xml -->
