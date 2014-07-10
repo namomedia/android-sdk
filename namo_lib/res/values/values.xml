@@ -20,6 +20,6 @@
     <!-- From: file:/Users/nassar/Development/repos/namomedia/namo-android/Namo/src/main/res/values/strings.xml -->
     <eat-comment />
 
-    <string name="namo_version">2.2.17</string>
+    <string name="namo_version">2.2.18</string>
 
 </resources>
