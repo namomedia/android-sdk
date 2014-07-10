@@ -10,6 +10,9 @@ See our [Quickstart Guide](http://docs.namomedia.com/quickstart) to get started.
 Change Log
 ===========
 
+**Version 2.2.18** - *July 10, 2014*
+* Use Play services (when available) to determine the advertiser ID
+
 **Version 2.2.0** - *April 22, 2014*
 * Support for hierarchical ad units
 
